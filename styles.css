@@ -43,12 +43,14 @@ body{
 .form-container{
 position: fixed;
 top: 1px;
+width: 95%;
+left: 2.5%;
 
 }
 
 form{
   background-color: rgba(241, 245, 249, 0.8);
-  display: flex;
+  display: flex;  /*this display will be toggle between none / flex with the add new book button*/
   gap: 20px;
   padding: 15px;
   border-radius: 10px;
@@ -93,12 +95,12 @@ form > button:active{
 .books{
   background-color: rgba(241, 245, 249, 0.8) ;
   margin: 0 auto;
-  margin-top: 80px;
+  margin-top: 65px;
   width: 70%;
   text-align: center;
 }
 h1{
-  padding: 15px;
+  padding: 10px;
   color: brown;
 }
 
