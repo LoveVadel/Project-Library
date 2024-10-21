@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Library</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="form-container">
+            <form action="">
+                <div>
+                    <label for="book-name">Book Name:</label>
+                    <input type="text" name="book-name", id="book-name">
+                </div>
+                <div>
+                    <label for="author">Author:</label>
+                    <input type="text" name="author" id="book-author">
+                </div>
+                <div>
+                    <label for="pages">Number of pages:</label>
+                    <input type="number" name="pages" id="book-pages">
+                </div>
+                <div>
+                    <label for="status">Status</label>
+                    <select name="status" id="book-status">
+                        <option value="not-read">Not Read</option>
+                        <option value="read">Read</option>
+                    </select>
+                </div>
+                <button id="form-button">Add Book</button>
+            </form>
+        </div>
+
+        <button id="new-book">+ New Book</button>
+
+    </div>
+    
+    <div class="books">
+        <h1>BOOKS</h1>
+        <div class="book-container">
+            <div class="book">
+                <div id="info-book">
+                    <p>Book Name:</p>
+                    <h4>Things fall apart</h4>
+                </div>
+                <hr>
+                <div id="info-author">
+                    <p>Author:</p>
+                    <h4>Chino Achebe</h4>
+                </div>
+                <hr>
+                <div id="info-pages">
+                    <p>Pages</p>
+                    <h4>100</h4>
+                </div>
+                <hr>
+                <div id="info-status">
+                    <h4>Read &#10003</h4>
+                </div>
+                <div id="info-delete" class="info-delete">
+                    <button class="delete-button">Delete Book</button>
+                </div>
+            </div>
+
+            <div class="book">
+                <p>Book Name:</p>
+                <h4>Things fall apart</h4>
+                <hr>
+                <p>Author:</p>
+                <h4>Chino Achebe</h4>
+                <hr>
+                <p>Pages</p>
+                <h4>100</h4>
+            </div>
+
+            <div class="book">
+                <p>Book Name:</p>
+                <h4>Things fall apart</h4>
+                <hr>
+                <p>Author:</p>
+                <h4>Chino Achebe</h4>
+                <hr>
+                <p>Pages</p>
+                <h4>100</h4>
+            </div>
+            
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
