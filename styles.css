@@ -50,7 +50,7 @@ left: 2.5%;
 
 form{
   background-color: rgba(241, 245, 249, 0.8);
-  display: flex;  /*this display will be toggle between none / flex with the add new book button*/
+  display: none;  /*this display will be toggle between none / flex with the add new book button*/
   gap: 20px;
   padding: 15px;
   border-radius: 10px;
