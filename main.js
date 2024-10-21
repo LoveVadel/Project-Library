@@ -33,7 +33,7 @@ form.addEventListener("click", function(event){
                 const p1_author =  document.createElement("p").textContent = "Author:";
                 const h4_author = document.createElement("h4");
             
-                const p1_pages =  document.createElement("p").textContent = "Pages";
+                const p1_pages =  document.createElement("p").textContent = "Pages:";
                 const h4_pages = document.createElement("h4");
             
                 const h4_status = document.createElement("h4");
@@ -59,7 +59,7 @@ form.addEventListener("click", function(event){
                 }
                 else{
                     h4_status.innerHTML = "Not Read &#10006"
-                    infoStatus.style.backgroundColor = "red"
+                    infoStatus.style.backgroundColor = "brown"
                 }
 
                 const infoBook = document.createElement("div");
@@ -89,7 +89,7 @@ form.addEventListener("click", function(event){
                 bookContainer.appendChild(books)
             
             })
-
+            form.style.display = ""
             bookName.value = "";
             bookAuthor.value = "";
             bookPages.value = "";
@@ -120,7 +120,6 @@ document.querySelector(".book-container").addEventListener("click", function(eve
       
         const h4_status = document.createElement("h4");
        
-      
         const deleteButton = document.createElement("button");
         deleteButton.setAttribute("class", "delete-button");
         deleteButton.textContent = "Delete Book";
